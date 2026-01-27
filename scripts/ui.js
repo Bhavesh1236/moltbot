@@ -130,4 +130,4 @@ else {
     runSync(runner.cmd, installArgs, installEnv);
   }
   run(runner.cmd, ["run", script, ...rest]);
-}
+};

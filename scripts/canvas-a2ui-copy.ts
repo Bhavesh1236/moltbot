@@ -46,4 +46,4 @@ if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {
     console.error(String(err));
     process.exit(1);
   });
-}
+};
